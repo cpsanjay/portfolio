@@ -1,0 +1,64 @@
+.project-container {
+  max-width: 1140px;
+  position: relative;
+  margin-top: 100px;
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+}
+
+.projects-text {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 13rem;
+  line-height: 75%;
+
+  text-align: center;
+  letter-spacing: -0.04em;
+
+  color: rgba(255, 230, 0, 0.05);
+}
+
+.projects {
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.single-project {
+  width: 20rem;
+  height: 10rem;
+  background: rgba(32, 32, 32, 0.5);
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects span {
+  font-weight: 900;
+  font-size: 1.5rem;
+
+  color: #ffffff;
+}
+.projects a {
+  font-weight: 400;
+  font-size: 1 rem;
+
+  color: #00c2ff;
+}

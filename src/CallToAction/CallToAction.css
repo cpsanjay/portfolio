@@ -1,0 +1,58 @@
+.cta {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.hire {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20rem;
+  line-height: 75%;
+  /* or 169px */
+
+  text-align: center;
+  letter-spacing: -0.04em;
+
+  color: rgba(255, 230, 0, 0.05);
+}
+
+.cta-main {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 98px;
+
+  color: #ffffff;
+}
+.cta-btn {
+  margin: 0;
+}
+
+.cta-btn a {
+  font-weight: 900;
+  font-size: 80px;
+  text-decoration-line: line-through;
+  text-decoration-color: #ff5e00;
+  color: #fb8745;
+  cursor: pointer;
+}
+
+.cta-btn a:hover {
+  text-decoration-line: none;
+}

@@ -1,0 +1,71 @@
+.hero-container {
+  width: 100%;
+  height: 100vh;
+  /* overflow: hidden; */
+  position: relative;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.hero-bg-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 13rem;
+  line-height: 75%;
+
+  text-align: center;
+  letter-spacing: -0.04em;
+
+  color: rgba(255, 230, 0, 0.05);
+}
+
+.main-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 5rem;
+  line-height: 100%;
+
+  color: #ffe600;
+}
+
+.o-one,
+.o-two,
+.o-three,
+.o-four {
+  color: #00c2ff;
+  font-size: 40px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+}
+
+.o-one {
+  position: absolute;
+  font-size: 9rem;
+  top: -10%;
+  left: 10%;
+}
+.o-two {
+  position: absolute;
+  font-size: 5rem;
+  top: 45%;
+  right: 30%;
+}
+
+.dot {
+  color: rgb(255, 132, 0);
+}
