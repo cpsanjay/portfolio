@@ -56,3 +56,13 @@
 .cta-btn a:hover {
   text-decoration-line: none;
 }
+
+@media screen and (max-width: 720px) {
+  .cta-main {
+    font-size: 2rem;
+    line-height: 50px;
+  }
+  .cta-btn a {
+    font-size: 3rem;
+  }
+}

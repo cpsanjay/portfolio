@@ -69,3 +69,12 @@
 .dot {
   color: rgb(255, 132, 0);
 }
+
+@media screen and (max-width: 720px) {
+  .hero-bg-text {
+    font-size: 7rem;
+  }
+  .main-text {
+    font-size: 3rem;
+  }
+}

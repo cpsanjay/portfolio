@@ -62,3 +62,21 @@
 
   color: #00c2ff;
 }
+
+@media screen and (max-width: 720px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .projects-text {
+    font-size: 7rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .single-project {
+    width: 15rem;
+  }
+  .projects span {
+    font-size: 1rem;
+  }
+}
