@@ -22,8 +22,8 @@ export const projectData = [
     repoLink: "https://github.com/cpsanjay/mern-blog-app",
   },
   {
-    name: "Cloud Management App",
-    repoLink: "",
+    name: "Todo using TypeScript",
+    repoLink: "https://github.com/cpsanjay/typescript-todo",
   },
   {
     name: "Crypto Tracker",
