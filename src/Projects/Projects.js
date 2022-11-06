@@ -9,7 +9,7 @@ const Projects = () => {
       <div className="projects">
         {projectData.map((data) => {
           return (
-            <div className="single-project">
+            <div className="single-project" key={data.repoLink}>
               <span>{data.name}</span>
               <a href={data.repoLink}>go to repo</a>
               {data.siteLink && <a href={data.siteLink}>go to live site</a>}

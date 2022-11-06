@@ -7,6 +7,7 @@ export const projectData = [
   {
     name: "Netflix Clone",
     repoLink: "https://github.com/cpsanjay/NetflixClone",
+    siteLink: "https://netflixclonescp.netlify.app/",
   },
   {
     name: "Redux Movie App",
