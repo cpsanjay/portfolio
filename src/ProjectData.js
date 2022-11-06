@@ -12,7 +12,7 @@ export const projectData = [
   {
     name: "Redux Movie App",
     repoLink: "https://github.com/cpsanjay/redux-movie-app",
-    siteLink: "",
+    siteLink: "https://redux-movie-app-scp.netlify.app/",
   },
   {
     name: "Dashboard",
