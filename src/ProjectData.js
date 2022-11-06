@@ -33,10 +33,10 @@ export const projectData = [
   },
   {
     name: "Weather App",
-    link: "https://github.com/cpsanjay/weather-app-react",
+    repoLink: "https://github.com/cpsanjay/weather-app-react",
   },
   {
     name: "Admin App",
-    link: "https://github.com/cpsanjay/admin-app-react",
+    repoLink: "https://github.com/cpsanjay/admin-app-react",
   },
 ];
